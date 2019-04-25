@@ -28,10 +28,15 @@ If ($numero_1>$numero_2 && $numero_1>$numero_3){
             } 
 
                     elseif ($numero_1==$numero_2 && $numero_1>$numero_3) {
-                        print "Os dois primeiros números são iguais e maiores que o terceiro";
+                        print "Os dois primeiros números são iguais e maiores que o terceiro, maior número é o $numero_1";
                     }
           
                         elseif ($numero_2==$numero_3 && $numero_2>$numero_1) {
-                            print "Os dois últimos números são iguais e maiores que o primeiro";
+                            print "Os dois últimos números são iguais e maiores que o primeiro, maior número é o $numero_2";
                         }
+
+                            elseif ($numero_1==$numero_3 && $numero_1>$numero_2) {
+                                print "O primeiro e o terceiro número são iguais e maiores que o segundo, maior número é o $numero_3";
+                            }
+
 

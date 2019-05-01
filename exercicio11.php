@@ -40,10 +40,10 @@ if ($num < 1000) {
             print "\nO número que voce digitou possui $centena, $dezena e $num.\n";
             }
                 elseif ($qnt_num == 2) {
-                    echo "\nO número que voce digitou possui $dezena e $num. \n";
+                    print "\nO número que voce digitou possui $dezena e $num. \n";
                     }
                 else {
-                    echo "\nO número que voce digitou possui $num. \n";
+                    print "\nO número que voce digitou possui $num. \n";
                     }
 
     }
